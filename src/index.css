@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #3e5879;
+  --color-secondary: #213555;
+  --color-accent: #d8c4b6;
+  --color-highlight: #f5efe7;
+  --color-dark: #0f172a;
+  --color-text: #64748b;
+
+  --default-font-family: Inter, sans-serif;
+
+  --breakpoint-2xl: 82.5rem;
+}
+
+@layer base {}
+
+@layer components {
+  .navbar-fixed {
+    @apply fixed top-0 left-0 w-full z-[9999] bg-white/10 backdrop-blur shadow-[inset_0_-1px_0_rgba(0,0,0,0.1)];
+  }
+
+  .hamburger-line {
+    @apply w-[30px] h-[2px] my-2 block bg-secondary;
+  }
+
+  .hamburger-active > span:nth-child(1) {
+    @apply rotate-45;
+  }
+
+  .hamburger-active > span:nth-child(2) {
+    @apply scale-0;
+  }
+
+  .hamburger-active > span:nth-child(3) {
+    @apply -rotate-45;
+  }
+
+  .button-secondary {
+    @apply p-1 rounded-lg shadow-lg bg-secondary text-highlight hover:bg-highlight hover:text-secondary hover:border hover:border-secondary
+  }
+
+  .container{
+    @apply max-w-lg mx-auto border-2 border-black shadow-lg mt-2 mb-10 p-4
+  }
+}

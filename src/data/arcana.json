@@ -1,0 +1,232 @@
+[
+  {
+    "id": 1,
+    "name": "The Fool",
+    "number": 0,
+    "short_desc": "Awal baru, kebebasan, peluang.",
+    "long_desc": "The Fool melambangkan awal perjalanan baru, kepolosan, dan rasa ingin tahu. Ia mengajak kita untuk melangkah dengan berani meski masa depan belum pasti, serta membuka diri terhadap pengalaman baru tanpa rasa takut.",
+    "fact": "The Fool sering dianggap sebagai kartu tanpa nomor (0) atau sebagai kartu terakhir setelah The World, tergantung dek tarotnya.",
+    "image": "./src/assets/arcana/Fool.png",
+    "img_desc": "./src/assets/arcana/Fool-0.png"
+  },
+  {
+    "id": 2,
+    "name": "The Magician",
+    "number": "I",
+    "short_desc": "Kekuatan, kehendak, manifestasi.",
+    "long_desc": "The Magician melambangkan kemampuan untuk mengubah ide menjadi kenyataan. Ia merepresentasikan potensi, keterampilan, dan kekuatan kehendak untuk menciptakan realitas yang diinginkan.",
+    "fact": "Simbol di meja The Magician (pentacle, cup, sword, wand) melambangkan empat elemen: bumi, air, udara, dan api.",
+    "image": "./src/assets/arcana/Magician.png",
+    "img_desc": "./src/assets/arcana/Magician-0.png"
+  },
+  {
+    "id": 3,
+    "name": "The High Priestess",
+    "number": "II",
+    "short_desc": "Intuisi, misteri, kebijaksanaan batin.",
+    "long_desc": "The High Priestess melambangkan rahasia, kebijaksanaan batin, dan dunia spiritual. Ia mengajak kita mempercayai intuisi, memahami hal-hal tersembunyi, dan menjaga keseimbangan antara sadar dan bawah sadar.",
+    "fact": "Kartu ini sering digambarkan dengan gulungan bertuliskan 'TORA', yang dipercaya merujuk pada kitab Taurat.",
+    "image": "./src/assets/arcana/Priestess.png",
+    "img_desc": "./src/assets/arcana/Priestess-0.png"
+  },
+  {
+    "id": 4,
+    "name": "The Empress",
+    "number": "III",
+    "short_desc": "Kesuburan, kasih sayang, kreativitas.",
+    "long_desc": "The Empress adalah simbol kemakmuran, cinta, dan hubungan dengan alam. Ia membawa pesan tentang kehangatan, keindahan, dan melimpahnya kreativitas.",
+    "fact": "The Empress biasanya digambarkan duduk di alam penuh gandum, simbol kesuburan dan kelimpahan.",
+    "image": "./src/assets/arcana/Empress.png",
+    "img_desc": "./src/assets/arcana/Empress-0.png"
+  },
+  {
+    "id": 5,
+    "name": "The Emperor",
+    "number": "IV",
+    "short_desc": "Stabilitas, otoritas, kepemimpinan.",
+    "long_desc": "The Emperor melambangkan kekuasaan, disiplin, dan struktur. Ia mengajarkan pentingnya aturan, tanggung jawab, dan kepemimpinan yang bijaksana.",
+    "fact": "Tahta The Emperor sering dihiasi kepala domba jantan, simbol zodiak Aries dan kekuatan maskulin.",
+    "image": "./src/assets/arcana/Emperor.png",
+    "img_desc": "./src/assets/arcana/Emperor-0.png"
+  },
+  {
+    "id": 6,
+    "name": "The Hierophant",
+    "number": "V",
+    "short_desc": "Tradisi, pengetahuan, spiritualitas.",
+    "long_desc": "The Hierophant melambangkan ajaran, moralitas, dan kebijaksanaan spiritual. Ia mendorong kita untuk belajar dari tradisi dan bimbingan para guru.",
+    "fact": "Dalam beberapa dek, The Hierophant disebut juga 'The Pope', mencerminkan otoritas agama.",
+    "image": "./src/assets/arcana/Hierophant.png",
+    "img_desc": "./src/assets/arcana/Hierophant-0.png"
+  },
+  {
+    "id": 7,
+    "name": "The Lovers",
+    "number": "VI",
+    "short_desc": "Pilihan, cinta, harmoni.",
+    "long_desc": "The Lovers bukan hanya tentang cinta romantis, tapi juga pilihan penting dalam hidup. Ia melambangkan persatuan, harmoni, dan keputusan yang diambil dengan hati nurani.",
+    "fact": "Dulu, The Lovers lebih sering melambangkan 'ujian moral' daripada sekadar cinta romantis.",
+    "image": "./src/assets/arcana/Lovers.png",
+    "img_desc": "./src/assets/arcana/Lovers-0.png"
+  },
+  {
+    "id": 8,
+    "name": "The Chariot",
+    "number": "VII",
+    "short_desc": "Kemenangan, kontrol, ambisi.",
+    "long_desc": "The Chariot adalah simbol disiplin dan determinasi. Ia mendorong kita untuk tetap fokus, mengendalikan arah, dan maju hingga mencapai tujuan.",
+    "fact": "Sphynx hitam dan putih di depan kereta melambangkan kekuatan berlawanan yang harus dikendalikan.",
+    "image": "./src/assets/arcana/Chariot.png",
+    "img_desc": "./src/assets/arcana/Chariot-0.png"
+  },
+  {
+    "id": 9,
+    "name": "Strength",
+    "number": "VIII",
+    "short_desc": "Keberanian, kendali diri, belas kasih.",
+    "long_desc": "Strength melambangkan kekuatan batin, kesabaran, dan cinta kasih. Kekuatan sejati bukanlah kekerasan, melainkan kemampuan untuk mengendalikan diri dan bersikap lembut.",
+    "fact": "Perempuan yang membuka mulut singa melambangkan bahwa kelembutan lebih kuat daripada kekerasan.",
+    "image": "./src/assets/arcana/Strength.png",
+    "img_desc": "./src/assets/arcana/Strength-0.png"
+  },
+  {
+    "id": 10,
+    "name": "The Hermit",
+    "number": "IX",
+    "short_desc": "Pencarian, introspeksi, kebijaksanaan.",
+    "long_desc": "The Hermit mengajak kita untuk menyendiri, mencari kebenaran batin, dan menemukan cahaya dari dalam. Ia melambangkan perjalanan spiritual dan refleksi mendalam.",
+    "fact": "Lampu yang dibawa The Hermit berisi bintang bersudut enam (hexagram), simbol kebijaksanaan ilahi.",
+    "image": "./src/assets/arcana/Hermit.png",
+    "img_desc": "./src/assets/arcana/Hermit-0.png"
+  },
+  {
+    "id": 11,
+    "name": "Wheel of Fortune",
+    "number": "X",
+    "short_desc": "Perubahan, takdir, siklus hidup.",
+    "long_desc": "Wheel of Fortune mengingatkan bahwa hidup selalu berubah. Ia melambangkan takdir, peluang, dan siklus keberuntungan yang terus berputar.",
+    "fact": "Huruf di roda sering dibaca sebagai 'TARO' atau 'ROTA', yang berarti roda atau tarot.",
+    "image": "./src/assets/arcana/Fortune.png",
+    "img_desc": "./src/assets/arcana/Fortune-0.png"
+  },
+  {
+    "id": 12,
+    "name": "Justice",
+    "number": "XI",
+    "short_desc": "Keadilan, kebenaran, keseimbangan.",
+    "long_desc": "Justice melambangkan tanggung jawab, kejujuran, dan keputusan yang adil. Ia mengingatkan bahwa setiap tindakan memiliki konsekuensi.",
+    "fact": "Justice biasanya digambarkan memegang pedang dan timbangan, simbol kebenaran dan keadilan.",
+    "image": "./src/assets/arcana/Justice.png",
+    "img_desc": "./src/assets/arcana/Justice-0.png"
+  },
+  {
+    "id": 13,
+    "name": "The Hanged Man",
+    "number": "XII",
+    "short_desc": "Pengorbanan, perspektif baru, penyerahan diri.",
+    "long_desc": "The Hanged Man melambangkan perubahan sudut pandang, pengorbanan demi tujuan lebih besar, dan keheningan sebelum transformasi.",
+    "fact": "Kaki The Hanged Man sering membentuk segitiga terbalik, simbol iluminasi spiritual.",
+    "image": "./src/assets/arcana/Hangedman.png",
+    "img_desc": "./src/assets/arcana/Hangedman-0.png"
+  },
+  {
+    "id": 14,
+    "name": "Death",
+    "number": "XIII",
+    "short_desc": "Akhir, transformasi, awal baru.",
+    "long_desc": "Death tidak selalu berarti kematian fisik, melainkan akhir dari sebuah fase dan lahirnya yang baru. Ia melambangkan transformasi dan pelepasan.",
+    "fact": "Dalam dek Rider-Waite, matahari terbit di horizon kartu Death melambangkan kebangkitan dan harapan baru.",
+    "image": "./src/assets/arcana/Death.png",
+    "img_desc": "./src/assets/arcana/Death-0.png"
+  },
+  {
+    "id": 15,
+    "name": "Temperance",
+    "number": "XIV",
+    "short_desc": "Kesabaran, harmoni, keseimbangan.",
+    "long_desc": "Temperance mengajarkan pentingnya moderasi, keselarasan, dan menggabungkan hal-hal berbeda menjadi satu kesatuan yang seimbang.",
+    "fact": "Malaikat di kartu Temperance biasanya menuang air antara dua cawan, simbol harmoni unsur.",
+    "image": "./src/assets/arcana/Temper.png",
+    "img_desc": "./src/assets/arcana/Temper-0.png"
+  },
+  {
+    "id": 16,
+    "name": "The Devil",
+    "number": "XV",
+    "short_desc": "Keterikatan, ilusi, godaan.",
+    "long_desc": "The Devil melambangkan ikatan pada hal-hal material, kebiasaan buruk, dan ilusi. Ia mengingatkan kita untuk membebaskan diri dari rantai yang mengikat.",
+    "fact": "Manusia di kartu The Devil terlihat terikat, tapi rantainya sebenarnya longgar—mereka bisa bebas jika mau.",
+    "image": "./src/assets/arcana/Devil.png",
+    "img_desc": "./src/assets/arcana/Devil-0.png"
+  },
+  {
+    "id": 17,
+    "name": "The Tower",
+    "number": "XVI",
+    "short_desc": "Kehancuran, pencerahan mendadak, perubahan besar.",
+    "long_desc": "The Tower menandakan perubahan drastis dan tak terduga. Meski tampak menghancurkan, ia membuka jalan menuju kebenaran dan kebebasan baru.",
+    "fact": "Petir di kartu The Tower sering dianggap sebagai 'cahaya kebenaran' yang menghancurkan ilusi.",
+    "image": "./src/assets/arcana/Tower.png",
+    "img_desc": "./src/assets/arcana/Tower-0.png"
+  },
+  {
+    "id": 18,
+    "name": "The Star",
+    "number": "XVII",
+    "short_desc": "Harapan, inspirasi, penyembuhan.",
+    "long_desc": "The Star melambangkan kepercayaan, ketenangan, dan arah yang jelas. Ia memberi harapan baru dan inspirasi setelah masa sulit.",
+    "fact": "Bintang utama di kartu ini biasanya bersudut delapan, simbol regenerasi dan energi kosmik.",
+    "image": "./src/assets/arcana/Star.png",
+    "img_desc": "./src/assets/arcana/Star-0.png"
+  },
+  {
+    "id": 19,
+    "name": "The Moon",
+    "number": "XVIII",
+    "short_desc": "Ilusi, mimpi, ketidakpastian.",
+    "long_desc": "The Moon melambangkan dunia mimpi, misteri, dan hal-hal yang tidak jelas. Ia mengingatkan kita untuk berhati-hati terhadap ilusi dan kebingungan.",
+    "fact": "Anjing dan serigala di kartu The Moon melambangkan sisi liar dan terlatih dari jiwa manusia.",
+    "image": "./src/assets/arcana/Moon.png",
+    "img_desc": "./src/assets/arcana/Moon-0.png"
+  },
+  {
+    "id": 20,
+    "name": "The Sun",
+    "number": "XIX",
+    "short_desc": "Kebahagiaan, kesuksesan, vitalitas.",
+    "long_desc": "The Sun membawa energi positif, kehangatan, dan kegembiraan. Ia melambangkan pencapaian, kejelasan, dan masa depan cerah.",
+    "fact": "Anak kecil yang menunggang kuda di kartu The Sun melambangkan kepolosan dan kebebasan.",
+    "image": "./src/assets/arcana/Sun.png",
+    "img_desc": "./src/assets/arcana/Sun-0.png"
+  },
+  {
+    "id": 21,
+    "name": "Judgement",
+    "number": "XX",
+    "short_desc": "Kebangkitan, refleksi, keputusan akhir.",
+    "long_desc": "Judgement melambangkan kesadaran baru, panggilan spiritual, dan kebangkitan. Ia mendorong kita untuk menghadapi masa lalu dan memutuskan jalan baru.",
+    "fact": "Sangkakala di kartu Judgement biasanya ditiup oleh malaikat Gabriel, simbol panggilan ilahi.",
+    "image": "./src/assets/arcana/Judgement.png",
+    "img_desc": "./src/assets/arcana/Judgement-0.png"
+  },
+  {
+    "id": 22,
+    "name": "The World",
+    "number": "XXI",
+    "short_desc": "Penyelesaian, keberhasilan, kesatuan.",
+    "long_desc": "The World menandakan akhir dari perjalanan besar. Ia melambangkan pencapaian tertinggi, harmoni, dan kesempurnaan siklus hidup.",
+    "fact": "Empat makhluk di sudut kartu (singa, lembu, manusia, elang) melambangkan empat injil dan empat elemen.",
+    "image": "./src/assets/arcana/World.png",
+    "img_desc": "./src/assets/arcana/World-0.png"
+  },
+  {
+    "id": 23,
+    "name": "The Aeon",
+    "number": "XXI",
+    "short_desc": "Transendensi, kebangkitan kosmik, kesadaran baru.",
+    "long_desc": "The Aeon (atau The Universe dalam beberapa dek) melambangkan kesadaran kosmik, pencerahan, dan kebangkitan spiritual yang lebih tinggi. Ia mengajak kita melampaui batas-batas dunia material dan terhubung dengan kebenaran abadi.",
+    "fact": "The Aeon lebih populer di dek Thoth karya Aleister Crowley, menggantikan kartu Judgement.",
+    "image": "./src/assets/arcana/Aeon.png",
+    "img_desc": "./src/assets/arcana/Aeon.png"
+  }
+]
