@@ -43,7 +43,7 @@ export default function Modal({ selectedCard, onClose }) {
           <img
             src={selectedCard.img_desc}
             alt={selectedCard.name}
-            className="w-32 h-auto mx-auto mb-4"
+            className="w-32 h-auto mx-auto mb-4 shadow- shadow-accent"
           />
           <p className="text-pretty text-gray-700">
             <span>

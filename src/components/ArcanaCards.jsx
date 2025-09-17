@@ -2,12 +2,12 @@ export default function ArcanaCards({ arcana, onSelect }) {
   return (
     <div id="arcana-cards" className="container">
       <h2 className="text-2xl mb-5">22 Major Arcana</h2>
-      <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8">
+      <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-4 xl:grid-cols-4 xl:gap-8">
         {arcana.map((card) => (
           <a
             key={card.id}
             onClick={() => onSelect(card)}
-            href="#"
+            href={`#${card.id}`}
             className="group relative block h-64 sm:h-80 lg:h-96"
           >
             <span className="absolute inset-0 border-2 border-dashed border-black"></span>
