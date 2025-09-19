@@ -1,4 +1,4 @@
-export default function PersonaCards({ searchTerm, filtered }) {
+export default function PersonaCards({ searchTerm, filtered, onSelect }) {
   return (
     <div className="container">
       <h2 className="text-2xl mb-5">Persona</h2>
@@ -9,9 +9,9 @@ export default function PersonaCards({ searchTerm, filtered }) {
           <p className="text-lg">No persona found.</p>
         ) : (
           filtered.map((persona) => (
-            <a
+            <div
               key={persona.id}
-              href="#"
+              onClick={() => onSelect(persona)}
               className="group relative block bg-black"
             >
               <img
@@ -35,7 +35,7 @@ export default function PersonaCards({ searchTerm, filtered }) {
                   </div>
                 </div>
               </div>
-            </a>
+            </div>
           ))
         )}
       </div>

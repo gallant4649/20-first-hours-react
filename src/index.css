@@ -41,6 +41,6 @@
   }
 
   .container{
-    @apply max-w-lg mx-auto border-2 border-black shadow-lg mt-2 mb-10 p-4
+    @apply max-w-lg mx-auto border-2 border-black shadow-lg mt-2 mb-2 p-4 transition-all
   }
 }

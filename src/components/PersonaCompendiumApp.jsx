@@ -8,10 +8,12 @@ import PersonaCards from "./PersonaCards";
 import ArcanaCards from "./ArcanaCards";
 import Modal from "./Modal";
 import Footer from "./Footer";
+import PersonaDetailCards from "./PersonaDetailCards";
 
 export default function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCard, setSelectedCard] = useState(null);
+  const [selectedPersona, setSelectedPersona] = useState(null);
 
   const filtered = compendium.filter((persona) =>
     persona.name.toLowerCase().includes(searchTerm.toLowerCase())
@@ -23,7 +25,11 @@ export default function App() {
 
       <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
 
-      <PersonaCards searchTerm={searchTerm} filtered={filtered} />
+      {selectedPersona ? (
+        <PersonaDetailCards selectedPersona={selectedPersona} onClose={() => setSelectedPersona(null)} />
+      ) : (
+        <PersonaCards searchTerm={searchTerm} filtered={filtered} onSelect={setSelectedPersona} />
+      )}
 
       <ArcanaCards arcana={arcana} onSelect={setSelectedCard} />
 

@@ -1,5 +1,10 @@
-import PersonaCompendiumApp from "./components/PersonaCompendiumApp";
+import CompendiumApp from "./components/PersonaCompendiumApp"; 
 
 export default function App() {
-  return <PersonaCompendiumApp />;
+  return (
+    <div className="p-6">
+      {/* <PersonaDetailCards persona={samplePersona} /> */}
+      <CompendiumApp />
+    </div>
+  );
 }
