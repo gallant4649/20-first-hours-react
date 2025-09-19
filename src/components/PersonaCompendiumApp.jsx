@@ -1,14 +1,15 @@
 import { useState } from "react";
-import compendium from "../data/personaCompendium.json"
+import compendium from "../data/personaCompendium.json";
 import arcana from "../data/arcana.json";
 
-import Header from "./Header"
+import Header from "./Header";
 import SearchBar from "./SearchBar";
 import PersonaCards from "./PersonaCards";
 import ArcanaCards from "./ArcanaCards";
 import Modal from "./Modal";
 import Footer from "./Footer";
 import PersonaDetailCards from "./PersonaDetailCards";
+import ScrollToTop from "./ScrollTop";
 
 export default function App() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -23,18 +24,30 @@ export default function App() {
     <div>
       <Header />
 
+      <ScrollToTop/>
+
       <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
 
       {selectedPersona ? (
-        <PersonaDetailCards selectedPersona={selectedPersona} onClose={() => setSelectedPersona(null)} />
+        <PersonaDetailCards
+          selectedPersona={selectedPersona}
+          onClose={() => setSelectedPersona(null)}
+        />
       ) : (
-        <PersonaCards searchTerm={searchTerm} filtered={filtered} onSelect={setSelectedPersona} />
+        <PersonaCards
+          searchTerm={searchTerm}
+          filtered={filtered}
+          onSelect={setSelectedPersona}
+        />
       )}
 
       <ArcanaCards arcana={arcana} onSelect={setSelectedCard} />
 
       {selectedCard && (
-        <Modal selectedCard={selectedCard} onClose={() => setSelectedCard(null)} />
+        <Modal
+          selectedCard={selectedCard}
+          onClose={() => setSelectedCard(null)}
+        />
       )}
 
       <Footer />

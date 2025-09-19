@@ -13,7 +13,12 @@ export default function PersonaDetailCards({ selectedPersona, onClose }) {
   return (
     <div className="relative overflow-hidden container">
       {/* Header */}
-      <PersonaHeader persona={selectedPersona} arcana={arcana} onClose={onClose} />
+      <PersonaHeader
+        persona={selectedPersona}
+        arcana={arcana}
+        onClose={onClose}
+        href="#persona-cards"
+      />
 
       {/* Affinities */}
       <PersonaAffinities persona={selectedPersona} />
@@ -33,12 +38,6 @@ export default function PersonaDetailCards({ selectedPersona, onClose }) {
             <PersonaStats persona={selectedPersona} />
           </div>
         </div>
-      </div>
-
-      <div className="flex gap-2 items-center justify-between mb-4 lg:justify-center lg:gap-4">
-        <PreviousButton />
-        <p className="text-4xl font-extrabold">...</p>
-        <NextButton />
       </div>
     </div>
   );
@@ -68,7 +67,7 @@ function PersonaHeader({ persona, arcana, onClose }) {
       </div>
       <button
         onClick={onClose}
-        className="absolute top-2 right-2 bg-red-500 text-white rounded-full w-8 h-8 flex items-center justify-center hover:bg-red-700"
+        className="absolute top-3 right-2 bg-white text-red-500 border border-red-500 rounded-full w-8 h-8 flex items-center justify-center hover:bg-red-700 hover:text-white transition-colors"
       >
         X
       </button>
@@ -156,54 +155,3 @@ function renderStatBar(label, value) {
   );
 }
 
-function PreviousButton() {
-  return (
-    <a
-      className="inline-block rounded-full border border-pink-500 bg-pink-500 p-3 text-white hover:bg-transparent hover:text-pink-500 focus:ring-3 focus:outline-hidden"
-      href="#"
-    >
-      <span className="sr-only"> Download </span>
-
-      <svg
-        className="size-5 shadow-sm rotate-180"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          d="M14 5l7 7m0 0l-7 7m7-7H3"
-        />
-      </svg>
-    </a>
-  );
-}
-
-function NextButton() {
-    return (
-        <a
-      className="inline-block rounded-full border border-pink-500 bg-pink-500 p-3 text-white hover:bg-transparent hover:text-pink-500 focus:ring-3 focus:outline-hidden"
-      href="#"
-    >
-      <span className="sr-only"> Download </span>
-
-      <svg
-        className="size-5 shadow-sm"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          d="M14 5l7 7m0 0l-7 7m7-7H3"
-        />
-      </svg>
-    </a>
-    )
-}
