@@ -1,9 +1,7 @@
 import { useState } from "react";
-import compendium from "../data/personaCompendium.json";
 import arcana from "../data/arcana.json";
 
 import Header from "./Header";
-import SearchBar from "./SearchBar";
 import PersonaCards from "./PersonaCards";
 import ArcanaCards from "./ArcanaCards";
 import Modal from "./Modal";
@@ -12,21 +10,14 @@ import PersonaDetailCards from "./PersonaDetailCards";
 import ScrollToTop from "./ScrollTop";
 
 export default function App() {
-  const [searchTerm, setSearchTerm] = useState("");
   const [selectedCard, setSelectedCard] = useState(null);
   const [selectedPersona, setSelectedPersona] = useState(null);
-
-  const filtered = compendium.filter((persona) =>
-    persona.name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
 
   return (
     <div>
       <Header />
 
       <ScrollToTop/>
-
-      <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
 
       {selectedPersona ? (
         <PersonaDetailCards
@@ -35,8 +26,6 @@ export default function App() {
         />
       ) : (
         <PersonaCards
-          searchTerm={searchTerm}
-          filtered={filtered}
           onSelect={setSelectedPersona}
         />
       )}
@@ -48,7 +37,7 @@ export default function App() {
           selectedCard={selectedCard}
           onClose={() => setSelectedCard(null)}
         />
-      )}
+      )}y
 
       <Footer />
     </div>

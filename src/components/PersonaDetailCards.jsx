@@ -11,7 +11,7 @@ export default function PersonaDetailCards({ selectedPersona, onClose }) {
   );
 
   return (
-    <div className="relative overflow-hidden container">
+    <div id="persona-cards" className="relative overflow-hidden container">
       {/* Header */}
       <PersonaHeader
         persona={selectedPersona}
@@ -67,7 +67,7 @@ function PersonaHeader({ persona, arcana, onClose }) {
         <h2 className="text-2xl font-bold uppercase tracking-widest">
           {persona.name}
         </h2>
-        <span className="text-sm opacity-70">Arcana: {persona.arcana}</span>
+        <span className="text-sm opacity-70">Arcana: <span className={`${persona.arcana} bg-clip-text text-transparent text-2xl`}>{persona.arcana}</span></span>
         <div className="flex">
           <p className="text-sm uppercase opacity-70">Lv</p>
           <p className="text-3xl font-bold italic shadow-lg">{persona.level}</p>

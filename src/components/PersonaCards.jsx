@@ -1,7 +1,18 @@
-export default function PersonaCards({ searchTerm, filtered, onSelect }) {
+import { useState } from "react";
+import compendium from "../data/personaCompendium.json";
+import SearchBar from "./SearchBar";
+
+export default function PersonaCards({ onSelect }) {
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const filtered = compendium.filter((persona) =>
+    persona.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <div id="persona-cards" className="container">
       <h2 className="text-2xl mb-5">Persona</h2>
+      <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {searchTerm === "" ? (
           <p className="text-gray-500">Please type to search...</p>
@@ -9,7 +20,8 @@ export default function PersonaCards({ searchTerm, filtered, onSelect }) {
           <p className="text-lg">No persona found.</p>
         ) : (
           filtered.map((persona) => (
-            <div
+            <a
+              href="#persona-cards"
               key={persona.id}
               onClick={() => onSelect(persona)}
               className="group relative block bg-black"
@@ -35,7 +47,7 @@ export default function PersonaCards({ searchTerm, filtered, onSelect }) {
                   </div>
                 </div>
               </div>
-            </div>
+            </a>
           ))
         )}
       </div>
