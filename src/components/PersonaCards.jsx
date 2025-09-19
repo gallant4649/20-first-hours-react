@@ -21,7 +21,7 @@ export default function PersonaCards({ searchTerm, filtered, onSelect }) {
               />
 
               <div className="relative p-4 sm:p-6 lg:p-8">
-                <p className="text-sm font-medium tracking-widest text-pink-500 uppercase">
+                <p className={`text-sm font-medium tracking-widest ${persona.arcana} bg-clip-text text-transparent uppercase`}>
                   {persona.arcana}
                 </p>
 

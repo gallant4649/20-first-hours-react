@@ -12,8 +12,12 @@ export default function Modal({ selectedCard, onClose }) {
             id="modalTitle"
             className="text-xl font-bold text-gray-900 sm:text-2xl"
           >
-            <span className="font-serif">{selectedCard.number}</span>.{" "}
-            {selectedCard.name}
+            <span
+              className={`font-serif ${selectedCard.name} bg-clip-text text-transparent`}
+            >
+              {selectedCard.number}
+            </span>
+            . {selectedCard.name}
           </h2>
 
           <button
@@ -40,11 +44,11 @@ export default function Modal({ selectedCard, onClose }) {
         </div>
 
         <div className="mt-4">
-          <img
-            src={selectedCard.img_desc}
-            alt={selectedCard.name}
-            className="w-32 h-auto mx-auto mb-4 shadow- shadow-accent"
-          />
+          <div
+            className={`w-32 h-auto mx-auto mb-4 hover:shadow-xl hover:shadow-accent hover:scale-120 transition-all`}
+          >
+            <img src={selectedCard.img_desc} alt={selectedCard.name} />
+          </div>
           <p className="text-pretty text-gray-700">
             <span>
               <span className="font-bold text-lg">Description:</span>{" "}

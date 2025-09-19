@@ -13,7 +13,8 @@
   --breakpoint-2xl: 82.5rem;
 }
 
-@layer base {}
+@layer base {
+}
 
 @layer components {
   .navbar-fixed {
@@ -37,10 +38,80 @@
   }
 
   .button-secondary {
-    @apply p-1 rounded-lg shadow-lg bg-secondary text-highlight hover:bg-highlight hover:text-secondary hover:border hover:border-secondary
+    @apply p-1 rounded-lg shadow-lg bg-secondary text-highlight hover:bg-highlight hover:text-secondary hover:border hover:border-secondary;
   }
 
-  .container{
-    @apply max-w-lg mx-auto border-2 border-black shadow-lg mt-2 mb-2 p-4 transition-all
+  .container {
+    @apply max-w-lg mx-auto border-2 border-black shadow-lg mt-2 mb-2 p-4 transition-all;
+  }
+
+  .Fool {
+    @apply bg-gradient-to-b from-blue-400 to-blue-600;
+  }
+  .Magician {
+    @apply bg-gradient-to-b from-red-400 to-red-600;
+  }
+  .Priestess {
+    @apply bg-gradient-to-b from-indigo-400 to-indigo-600;
+  }
+  .Empress {
+    @apply bg-gradient-to-b from-pink-400 to-pink-600;
+  }
+  .Emperor {
+    @apply bg-gradient-to-b from-yellow-400 to-yellow-600;
+  }
+  .Hierophant {
+    @apply bg-gradient-to-b from-green-400 to-green-600;
+  }
+  .Lovers {
+    @apply bg-gradient-to-b from-rose-400 to-rose-600;
+  }
+  .Chariot {
+    @apply bg-gradient-to-b from-orange-400 to-orange-600;
+  }
+  .Justice {
+    @apply bg-gradient-to-b from-sky-400 to-sky-600;
+  }
+  .Hermit {
+    @apply bg-gradient-to-b from-gray-400 to-gray-600;
+  }
+  .Fortune {
+    @apply bg-gradient-to-b from-teal-400 to-teal-600;
+  }
+  .Strength {
+    @apply bg-gradient-to-b from-amber-400 to-amber-600;
+  }
+  .Hanged {
+    @apply bg-gradient-to-b from-cyan-400 to-cyan-600;
+  }
+  .Death {
+    @apply bg-gradient-to-b from-stone-600 to-black;
+  }
+  .Temperance {
+    @apply bg-gradient-to-b from-lime-400 to-lime-600;
+  }
+  .Devil {
+    @apply bg-gradient-to-b from-purple-600 to-purple-900;
+  }
+  .Tower {
+    @apply bg-gradient-to-b from-red-700 to-black;
+  }
+  .Star {
+    @apply bg-gradient-to-b from-cyan-300 to-indigo-500;
+  }
+  .Moon {
+    @apply bg-gradient-to-b from-slate-400 to-slate-700;
+  }
+  .Sun {
+    @apply bg-gradient-to-b from-amber-300 to-orange-500;
+  }
+  .Judgement {
+    @apply bg-gradient-to-b from-violet-500 to-fuchsia-700;
+  }
+  .World {
+    @apply bg-gradient-to-b from-emerald-400 to-emerald-700;
+  }
+  .Aeon {
+    @apply bg-gradient-to-b from-sky-500 to-indigo-700;
   }
 }

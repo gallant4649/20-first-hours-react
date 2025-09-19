@@ -17,7 +17,7 @@ export default function ArcanaCards({ arcana, onSelect }) {
                 <img src={card.image} alt={card.name} width={80} />
 
                 <h2 className="mt-4 text-xl font-medium sm:text-2xl">
-                  {card.number}. {card.name}
+                  <span className={`font-serif ${card.name} bg-clip-text text-transparent`}>{card.number}</span>. {card.name}
                 </h2>
               </div>
 

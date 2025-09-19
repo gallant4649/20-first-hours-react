@@ -26,7 +26,15 @@ export default function PersonaDetailCards({ selectedPersona, onClose }) {
       {/* Main Content */}
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="p-6 flex flex-col gap-6">
-          {/* Left side kosong dulu */}
+          {/* Left side */}
+          <div className="relative max-w-full bg-gray-900/80 text-gray-100 font-medium p-5 rounded-xl shadow-md border border-white/10">
+            <div
+              className={`absolute left-0 top-0 bottom-0 w-1 rounded-l-xl bg-gradient-to-b ${selectedPersona.arcana}`}
+            ></div>
+            <p className="pl-3 text-base leading-relaxed">
+              {selectedPersona.description}
+            </p>
+          </div>
         </div>
         <div className="relative p-5 items-center justify-center">
           <img
@@ -154,4 +162,3 @@ function renderStatBar(label, value) {
     </div>
   );
 }
-
