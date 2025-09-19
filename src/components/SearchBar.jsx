@@ -2,7 +2,6 @@ export default function SearchBar({ searchTerm, setSearchTerm }) {
   return (
     <div className="container space-y-6">
       <label htmlFor="Search">
-        <span className="text-2xl font-medium text-gray-700"> Search </span>
 
         <div className="relative">
           <input
