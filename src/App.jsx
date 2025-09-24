@@ -1,4 +1,4 @@
-import CompendiumApp from "./components/PersonaCompendiumApp"; 
+import CompendiumApp from "./components/PersonaCompendiumApp";
 
 export default function App() {
   return (

@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "name": "The Fool",
     "number": "O",
     "short_desc": "Awal baru, kebebasan, peluang.",
@@ -10,7 +10,7 @@
     "img_desc": "./src/assets/arcana/Fool-0.png"
   },
   {
-    "id": 2,
+    "id": 1,
     "name": "The Magician",
     "number": "I",
     "short_desc": "Kekuatan, kehendak, manifestasi.",
@@ -20,7 +20,7 @@
     "img_desc": "./src/assets/arcana/Magician-0.png"
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "The High Priestess",
     "number": "II",
     "short_desc": "Intuisi, misteri, kebijaksanaan batin.",
@@ -30,7 +30,7 @@
     "img_desc": "./src/assets/arcana/Priestess-0.png"
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "The Empress",
     "number": "III",
     "short_desc": "Kesuburan, kasih sayang, kreativitas.",
@@ -40,7 +40,7 @@
     "img_desc": "./src/assets/arcana/Empress-0.png"
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "The Emperor",
     "number": "IV",
     "short_desc": "Stabilitas, otoritas, kepemimpinan.",
@@ -50,7 +50,7 @@
     "img_desc": "./src/assets/arcana/Emperor-0.png"
   },
   {
-    "id": 6,
+    "id": 5,
     "name": "The Hierophant",
     "number": "V",
     "short_desc": "Tradisi, pengetahuan, spiritualitas.",
@@ -60,7 +60,7 @@
     "img_desc": "./src/assets/arcana/Hierophant-0.png"
   },
   {
-    "id": 7,
+    "id": 6,
     "name": "The Lovers",
     "number": "VI",
     "short_desc": "Pilihan, cinta, harmoni.",
@@ -70,7 +70,7 @@
     "img_desc": "./src/assets/arcana/Lovers-0.png"
   },
   {
-    "id": 8,
+    "id": 7,
     "name": "The Chariot",
     "number": "VII",
     "short_desc": "Kemenangan, kontrol, ambisi.",
@@ -80,7 +80,7 @@
     "img_desc": "./src/assets/arcana/Chariot-0.png"
   },
   {
-    "id": 9,
+    "id": 8,
     "name": "Strength",
     "number": "VIII",
     "short_desc": "Keberanian, kendali diri, belas kasih.",
@@ -90,7 +90,7 @@
     "img_desc": "./src/assets/arcana/Strength-0.png"
   },
   {
-    "id": 10,
+    "id": 9,
     "name": "The Hermit",
     "number": "IX",
     "short_desc": "Pencarian, introspeksi, kebijaksanaan.",
@@ -100,7 +100,7 @@
     "img_desc": "./src/assets/arcana/Hermit-0.png"
   },
   {
-    "id": 11,
+    "id": 10,
     "name": "Wheel of Fortune",
     "number": "X",
     "short_desc": "Perubahan, takdir, siklus hidup.",
@@ -110,7 +110,7 @@
     "img_desc": "./src/assets/arcana/Fortune-0.png"
   },
   {
-    "id": 12,
+    "id": 11,
     "name": "Justice",
     "number": "XI",
     "short_desc": "Keadilan, kebenaran, keseimbangan.",
@@ -120,7 +120,7 @@
     "img_desc": "./src/assets/arcana/Justice-0.png"
   },
   {
-    "id": 13,
+    "id": 12,
     "name": "The Hanged Man",
     "number": "XII",
     "short_desc": "Pengorbanan, perspektif baru, penyerahan diri.",
@@ -130,7 +130,7 @@
     "img_desc": "./src/assets/arcana/Hangedman-0.png"
   },
   {
-    "id": 14,
+    "id": 13,
     "name": "Death",
     "number": "XIII",
     "short_desc": "Akhir, transformasi, awal baru.",
@@ -140,7 +140,7 @@
     "img_desc": "./src/assets/arcana/Death-0.png"
   },
   {
-    "id": 15,
+    "id": 14,
     "name": "Temperance",
     "number": "XIV",
     "short_desc": "Kesabaran, harmoni, keseimbangan.",
@@ -150,7 +150,7 @@
     "img_desc": "./src/assets/arcana/Temper-0.png"
   },
   {
-    "id": 16,
+    "id": 15,
     "name": "The Devil",
     "number": "XV",
     "short_desc": "Keterikatan, ilusi, godaan.",
@@ -160,7 +160,7 @@
     "img_desc": "./src/assets/arcana/Devil-0.png"
   },
   {
-    "id": 17,
+    "id": 16,
     "name": "The Tower",
     "number": "XVI",
     "short_desc": "Kehancuran, pencerahan mendadak, perubahan besar.",
@@ -170,7 +170,7 @@
     "img_desc": "./src/assets/arcana/Tower-0.png"
   },
   {
-    "id": 18,
+    "id": 17,
     "name": "The Star",
     "number": "XVII",
     "short_desc": "Harapan, inspirasi, penyembuhan.",
@@ -180,7 +180,7 @@
     "img_desc": "./src/assets/arcana/Star-0.png"
   },
   {
-    "id": 19,
+    "id": 18,
     "name": "The Moon",
     "number": "XVIII",
     "short_desc": "Ilusi, mimpi, ketidakpastian.",
@@ -190,7 +190,7 @@
     "img_desc": "./src/assets/arcana/Moon-0.png"
   },
   {
-    "id": 20,
+    "id": 19,
     "name": "The Sun",
     "number": "XIX",
     "short_desc": "Kebahagiaan, kesuksesan, vitalitas.",
@@ -200,7 +200,7 @@
     "img_desc": "./src/assets/arcana/Sun-0.png"
   },
   {
-    "id": 21,
+    "id": 20,
     "name": "Judgement",
     "number": "XX",
     "short_desc": "Kebangkitan, refleksi, keputusan akhir.",
@@ -210,7 +210,7 @@
     "img_desc": "./src/assets/arcana/Judgement-0.png"
   },
   {
-    "id": 22,
+    "id": 21,
     "name": "The World",
     "number": "XXI",
     "short_desc": "Penyelesaian, keberhasilan, kesatuan.",
@@ -220,7 +220,7 @@
     "img_desc": "./src/assets/arcana/World-0.png"
   },
   {
-    "id": 23,
+    "id": 22,
     "name": "The Aeon",
     "number": "XXI",
     "short_desc": "Transendensi, kebangkitan kosmik, kesadaran baru.",
