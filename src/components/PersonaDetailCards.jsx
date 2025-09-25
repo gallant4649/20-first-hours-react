@@ -1,5 +1,6 @@
 import arcanaData from "../data/arcana.json";
 import { elementIcons } from "./ElementIcons";
+import Tilt from "react-parallax-tilt";
 
 export default function PersonaDetailCards({ selectedPersona, onClose }) {
   if (!selectedPersona) return null;
@@ -37,11 +38,20 @@ export default function PersonaDetailCards({ selectedPersona, onClose }) {
           </div>
         </div>
         <div className="relative p-5 items-center justify-center">
-          <img
-            src={selectedPersona.image}
-            alt={selectedPersona.name}
-            className="object-contain mx-auto max-h-[400px]"
-          />
+          <Tilt
+            tiltMaxAngleX={20}
+            tiltMaxAngleY={20}
+            perspective={1000}
+            scale={1.05}
+            glareEnable={true}
+            glareMaxOpacity={0.4}
+          >
+            <img
+              src={selectedPersona.image}
+              alt={selectedPersona.name}
+              className="object-contain mx-auto max-h-[400px] rounded-lg"
+            />
+          </Tilt>
           <div className="mt-5">
             <PersonaStats persona={selectedPersona} />
           </div>
@@ -67,7 +77,14 @@ function PersonaHeader({ persona, arcana, onClose }) {
         <h2 className="text-2xl font-bold uppercase tracking-widest">
           {persona.name}
         </h2>
-        <span className="text-sm opacity-70">Arcana: <span className={`${persona.arcana} bg-clip-text text-transparent text-2xl`}>{persona.arcana}</span></span>
+        <span className="text-sm opacity-70">
+          Arcana:{" "}
+          <span
+            className={`${persona.arcana} bg-clip-text text-transparent text-2xl`}
+          >
+            {persona.arcana}
+          </span>
+        </span>
         <div className="flex">
           <p className="text-sm uppercase opacity-70">Lv</p>
           <p className="text-3xl font-bold italic shadow-lg">{persona.level}</p>

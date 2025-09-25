@@ -1,19 +1,18 @@
 import { useState } from "react";
 import arcana from "../data/arcana.json";
 
-import Header from "./Header";
-import PersonaCards from "./PersonaCards";
-import ArcanaCards from "./ArcanaCards";
-import Modal from "./Modal";
-import Footer from "./Footer";
-import PersonaDetailCards from "./PersonaDetailCards";
-import ScrollToTop from "./ScrollTop";
-import HeroSection from "./HeroSection"
+import Header from "../components/Header";
+import PersonaCards from "../components/PersonaCards";
+import ArcanaCards from "../components/ArcanaCards";
+import Modal from "../components/Modal";
+import Footer from "../components/Footer";
+import PersonaDetailCards from "../components/PersonaDetailCards";
+import ScrollToTop from "../components/ScrollTop";
+import HeroSection from "../components/HeroSection";
 
 export default function App() {
   const [selectedCard, setSelectedCard] = useState(null);
   const [selectedPersona, setSelectedPersona] = useState(null);
-
 
   return (
     <div>

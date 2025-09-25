@@ -90,4 +90,8 @@
   .Aeon {
     @apply bg-gradient-to-b from-sky-500 to-indigo-700;
   }
+
+  .stroke-black {
+    -webkit-text-stroke: 2px black;
+  }
 }

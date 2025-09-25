@@ -1,19 +1,20 @@
+import { Link } from "react-router-dom";
 import arcana from "../data/arcana.json";
 
 export default function HeroSection() {
   const rotations = [
-    "rotate-20",
-    "rotate-10",
-    "rotate-0",
-    "-rotate-10",
-    "-rotate-20",
-    "-rotate-30",
-    "-rotate-40",
-    "-rotate-50",
-    "-rotate-60",
-    "-rotate-70",
-    "-rotate-80",
-    "-rotate-90",
+    "group-hover:rotate-20",
+    "group-hover:rotate-10",
+    "group-hover:rotate-0",
+    "group-hover:-rotate-10",
+    "group-hover:-rotate-20",
+    "group-hover:-rotate-30",
+    "group-hover:-rotate-40",
+    "group-hover:-rotate-50",
+    "group-hover:-rotate-60",
+    "group-hover:-rotate-70",
+    "group-hover:-rotate-80",
+    "group-hover:-rotate-90",
   ];
   return (
     <div className="container lg:grid lg:place-content-center">
@@ -21,7 +22,7 @@ export default function HeroSection() {
         <div className="max-w-prose text-left md:max-w-none">
           <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl md:text-6xl">
             Understand user flow and
-            <strong className="text-indigo-600 block sm:inline">
+            <strong className="bg-linear-30/oklch from-slate-500 via-stone-400 to-gray-200 bg-clip-text text-transparent block sm:inline">
               {" "}
               increase{" "}
             </strong>
@@ -35,9 +36,9 @@ export default function HeroSection() {
           </p>
 
           <div className="mt-6 flex flex-col gap-4 sm:mt-8 sm:flex-row">
-            <a
+            <Link
+              to="/arcana"
               className="inline-block w-full rounded border border-black bg-black px-6 py-3 font-medium text-white shadow-sm transition-colors hover:bg-white hover:text-black sm:w-auto"
-              href="#"
             >
               <div className="flex justify-between items-center">
                 My Arcana
@@ -56,11 +57,11 @@ export default function HeroSection() {
                   />
                 </svg>
               </div>
-            </a>
+            </Link>
 
-            <a
+            <Link
+              to="/persona"
               className="inline-block w-full rounded border border-gray-200 px-6 py-3 font-medium text-gray-500 shadow-sm transition-colors hover:bg-slate-200 hover:text-slate-900 sm:w-auto"
-              href="#"
             >
               <div className="flex justify-between items-center">
                 My Persona
@@ -79,7 +80,7 @@ export default function HeroSection() {
                   />
                 </svg>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -92,9 +93,7 @@ export default function HeroSection() {
                 <img
                   key={card.id}
                   src={card.img_desc}
-                  className={`absolute inset-0 w-full h-full object-contain transition-all duration-300 group-hover:${
-                    rotations[card.id] || "rotate-0"
-                  } origin-bottom-left delay-500`}
+                  className={`absolute inset-0 w-full h-full object-contain transition-all duration-300 ${rotations[card.id]} origin-bottom-left delay-500`}
                   alt={card.name || `Arcana card: ${card.id}`}
                 />
               ))}
