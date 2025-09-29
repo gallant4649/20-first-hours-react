@@ -14,7 +14,7 @@ export default function ArcanaCards({ arcana, onSelect }) {
 
             <div className="relative flex h-full transform items-end border-2 border-black bg-white rounded-lg transition-transform group-hover:-translate-x-1 group-hover:-translate-y-1">
               <div className="p-3 sm:p-4 lg:p-6 !pt-0 transition-opacity group-hover:absolute group-hover:opacity-0">
-                <img src={card.image} alt={card.name} className="w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20" />
+                <img src={card.image} alt={card.name} className="w-12 sm:w-16 sm:h-16 md:w-20 md:h-20" />
 
                 <h2 className="mt-2 text-lg font-medium sm:text-xl">
                   <span className={`font-serif ${card.name} bg-clip-text text-transparent`}>{card.number}</span>. {card.name}

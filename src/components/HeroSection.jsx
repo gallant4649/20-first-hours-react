@@ -21,12 +21,15 @@ export default function HeroSection() {
       <div className="mx-auto w-full max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 md:grid md:grid-cols-2 md:gap-8 md:py-24 lg:px-8 lg:py-32 lg:gap-12">
         <div className="max-w-prose text-left md:max-w-none">
           <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl md:text-6xl">
-            Understand user flow and
-            <strong className="bg-linear-30/oklch from-slate-500 via-stone-400 to-gray-200 bg-clip-text text-transparent block sm:inline">
+            Test your
+            <strong className="bg-linear-30/oklch from-blue-500 via-pink-700 to-purple-700 bg-clip-text text-transparent block sm:inline">
               {" "}
-              increase{" "}
+              Arcana{" "}
             </strong>
-            conversions
+            and see what your
+            <strong className="bg-linear-60/oklch via-red-500 from-slate-900 to-gray-200 bg-clip-text text-transparent block sm:inline">
+              Persona{" "}
+            </strong>
           </h1>
 
           <p className="mt-4 text-base text-gray-700 sm:text-lg sm:leading-relaxed">
@@ -93,7 +96,9 @@ export default function HeroSection() {
                 <img
                   key={card.id}
                   src={card.img_desc}
-                  className={`absolute inset-0 w-full h-full object-contain transition-all duration-300 ${rotations[card.id]} origin-bottom-left delay-500`}
+                  className={`absolute inset-0 w-full h-full object-contain transition-all duration-300 ${
+                    rotations[card.id]
+                  } origin-bottom-left delay-500`}
                   alt={card.name || `Arcana card: ${card.id}`}
                 />
               ))}

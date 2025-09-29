@@ -4,7 +4,7 @@ import arcana from "../data/arcana.json";
 import Header from "../components/Header";
 import PersonaCards from "../components/PersonaCards";
 import ArcanaCards from "../components/ArcanaCards";
-import Modal from "../components/Modal";
+import Modal from "../components/ArcanaDetailCards";
 import Footer from "../components/Footer";
 import PersonaDetailCards from "../components/PersonaDetailCards";
 import ScrollToTop from "../components/ScrollTop";

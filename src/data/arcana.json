@@ -3,6 +3,22 @@
     "id": 0,
     "name": "The Fool",
     "number": "O",
+    "personality": "Spontan, penuh rasa ingin tahu, optimis, dan berani memulai hal baru walau tanpa rencana matang.",
+    "compatibility": [
+      {
+        "arcana": "The Magician",
+        "reason": "Magician memberi arah pada energi spontan Fool, membuatnya lebih terarah."
+      },
+      {
+        "arcana": "The Sun",
+        "reason": "Optimisme Fool berpadu dengan keceriaan Sun, jadi pasangan penuh vitalitas."
+      }
+    ],
+    "story": {
+      "meaning": "Awal perjalanan, kebebasan, peluang tanpa batas.",
+      "myth": "The Fool adalah pengembara abadi yang melangkah tanpa takut ke dunia tak dikenal.",
+      "symbolism": "Tas kecil, anjing setia, dan jurang melambangkan petualangan tanpa rencana."
+    },
     "short_desc": "Awal baru, kebebasan, dan peluang.",
     "long_desc": "The Fool melambangkan awal perjalanan baru, kepolosan, dan rasa ingin tahu. Ia mengajak kita untuk melangkah dengan berani meski masa depan belum pasti, serta membuka diri terhadap pengalaman baru tanpa rasa takut.",
     "fact": "The Fool sering dianggap sebagai kartu tanpa nomor (0) atau sebagai kartu terakhir setelah The World, tergantung dek tarotnya.",
@@ -13,6 +29,22 @@
     "id": 1,
     "name": "The Magician",
     "number": "I",
+    "personality": "Kreatif, penuh potensi, mampu mengubah ide jadi nyata, dan komunikatif.",
+    "compatibility": [
+      {
+        "arcana": "The Fool",
+        "reason": "Energi Fool diarahkan oleh Magician menjadi sesuatu yang nyata."
+      },
+      {
+        "arcana": "The High Priestess",
+        "reason": "Magician adalah aksi, sedangkan Priestess adalah intuisi — keduanya saling melengkapi."
+      }
+    ],
+    "story": {
+      "meaning": "Kekuatan manifestasi dan kontrol atas elemen kehidupan.",
+      "myth": "Dihubungkan dengan Hermes, dewa komunikasi.",
+      "symbolism": "Tongkat menunjuk ke langit dan bumi: 'As above, so below'."
+    },
     "short_desc": "Kekuatan, kehendak, dan manifestasi.",
     "long_desc": "The Magician melambangkan kemampuan untuk mengubah ide menjadi kenyataan. Ia merepresentasikan potensi, keterampilan, dan kekuatan kehendak untuk menciptakan realitas yang diinginkan.",
     "fact": "Simbol di meja The Magician (pentacle, cup, sword, wand) melambangkan empat elemen: bumi, air, udara, dan api.",
@@ -23,6 +55,22 @@
     "id": 2,
     "name": "The High Priestess",
     "number": "II",
+    "personality": "Penuh intuisi, misterius, bijaksana, menyimpan rahasia terdalam.",
+    "compatibility": [
+      {
+        "arcana": "The Magician",
+        "reason": "Priestess memberi intuisi, Magician memberi aksi; kombinasi ideal."
+      },
+      {
+        "arcana": "The Moon",
+        "reason": "Keduanya menyukai misteri dan kedalaman batin."
+      }
+    ],
+    "story": {
+      "meaning": "Simbol pengetahuan rahasia dan intuisi.",
+      "myth": "Dikaitkan dengan Isis atau Artemis, dewi kebijaksanaan dan bulan.",
+      "symbolism": "Gulungan, bulan sabit, tirai menutupi misteri."
+    },
     "short_desc": "Intuisi, misteri, dan kebijaksanaan batin.",
     "long_desc": "The High Priestess melambangkan rahasia, kebijaksanaan batin, dan dunia spiritual. Ia mengajak kita mempercayai intuisi, memahami hal-hal tersembunyi, dan menjaga keseimbangan antara sadar dan bawah sadar.",
     "fact": "Kartu ini sering digambarkan dengan gulungan bertuliskan 'TORA', yang dipercaya merujuk pada kitab Taurat.",
@@ -33,6 +81,22 @@
     "id": 3,
     "name": "The Empress",
     "number": "III",
+    "personality": "Penuh kasih, kreatif, subur, mencintai seni dan keindahan.",
+    "compatibility": [
+      {
+        "arcana": "The Emperor",
+        "reason": "Empress memberi cinta dan kreativitas, Emperor memberi struktur dan kekuatan."
+      },
+      {
+        "arcana": "The Lovers",
+        "reason": "Empress memperkuat ikatan emosional dan cinta sejati."
+      }
+    ],
+    "story": {
+      "meaning": "Kesuburan, keindahan, cinta, dan kelimpahan.",
+      "myth": "Dikaitkan dengan Demeter, dewi panen.",
+      "symbolism": "Bunga, gandum, dan kursi kerajaan penuh kehangatan."
+    },
     "short_desc": "Kesuburan, kasih sayang, dan kreativitas.",
     "long_desc": "The Empress adalah simbol kemakmuran, cinta, dan hubungan dengan alam. Ia membawa pesan tentang kehangatan, keindahan, dan melimpahnya kreativitas.",
     "fact": "The Empress biasanya digambarkan duduk di alam penuh gandum, simbol kesuburan dan kelimpahan.",
@@ -43,6 +107,22 @@
     "id": 4,
     "name": "The Emperor",
     "number": "IV",
+    "personality": "Disiplin, berwibawa, suka aturan, melindungi orang terdekat.",
+    "compatibility": [
+      {
+        "arcana": "The Empress",
+        "reason": "Emperor memberi stabilitas pada cinta dan kreativitas Empress."
+      },
+      {
+        "arcana": "Justice",
+        "reason": "Keduanya menegakkan aturan dan kebenaran."
+      }
+    ],
+    "story": {
+      "meaning": "Stabilitas, kepemimpinan, struktur, otoritas.",
+      "myth": "Dikaitkan dengan Zeus, raja para dewa.",
+      "symbolism": "Takhta batu dan tongkat melambangkan kekuasaan."
+    },
     "short_desc": "Stabilitas, otoritas, dan kepemimpinan.",
     "long_desc": "The Emperor melambangkan kekuasaan, disiplin, dan struktur. Ia mengajarkan pentingnya aturan, tanggung jawab, dan kepemimpinan yang bijaksana.",
     "fact": "Tahta The Emperor sering dihiasi kepala domba jantan, simbol zodiak Aries dan kekuatan maskulin.",
@@ -53,6 +133,22 @@
     "id": 5,
     "name": "The Hierophant",
     "number": "V",
+    "personality": "Bijaksana, religius, menjunjung tradisi, guru spiritual.",
+    "compatibility": [
+      {
+        "arcana": "Justice",
+        "reason": "Keduanya mencari kebenaran universal dan aturan moral."
+      },
+      {
+        "arcana": "Temperance",
+        "reason": "Hierophant memberi tradisi, Temperance memberi keseimbangan."
+      }
+    ],
+    "story": {
+      "meaning": "Tradisi, pendidikan, spiritualitas.",
+      "myth": "Dikaitkan dengan para imam atau paus dalam sejarah.",
+      "symbolism": "Kunci suci, tongkat, dan kursi simbol otoritas rohani."
+    },
     "short_desc": "Tradisi, pengetahuan, dan spiritualitas.",
     "long_desc": "The Hierophant melambangkan ajaran, moralitas, dan kebijaksanaan spiritual. Ia mendorong kita untuk belajar dari tradisi dan bimbingan para guru.",
     "fact": "Dalam beberapa dek, The Hierophant disebut juga 'The Pope', mencerminkan otoritas agama.",
@@ -63,6 +159,22 @@
     "id": 6,
     "name": "The Lovers",
     "number": "VI",
+    "personality": "Romantis, penuh pilihan, suka harmoni, setia pada cinta.",
+    "compatibility": [
+      {
+        "arcana": "The Empress",
+        "reason": "Mereka memperkuat cinta, kehangatan, dan ikatan emosional."
+      },
+      {
+        "arcana": "The Sun",
+        "reason": "Lovers dan Sun membawa kebahagiaan murni dalam cinta."
+      }
+    ],
+    "story": {
+      "meaning": "Cinta, hubungan, pilihan penting.",
+      "myth": "Dihubungkan dengan Eros dan Psyche.",
+      "symbolism": "Pasangan, malaikat, dan taman surga."
+    },
     "short_desc": "Pilihan, cinta, dan harmoni.",
     "long_desc": "The Lovers bukan hanya tentang cinta romantis, tapi juga pilihan penting dalam hidup. Ia melambangkan persatuan, harmoni, dan keputusan yang diambil dengan hati nurani.",
     "fact": "Dulu, The Lovers lebih sering melambangkan 'ujian moral' daripada sekadar cinta romantis.",
@@ -73,6 +185,22 @@
     "id": 7,
     "name": "The Chariot",
     "number": "VII",
+    "personality": "Ambisius, penuh tekad, pantang menyerah, kompetitif.",
+    "compatibility": [
+      {
+        "arcana": "Strength",
+        "reason": "Chariot adalah aksi, Strength adalah kontrol emosi — kombinasi seimbang."
+      },
+      {
+        "arcana": "The Star",
+        "reason": "Chariot membawa ambisi, Star memberi harapan untuk terus maju."
+      }
+    ],
+    "story": {
+      "meaning": "Kemenangan, kontrol diri, perjalanan.",
+      "myth": "Dikaitkan dengan Apollo dalam kereta matahari.",
+      "symbolism": "Kereta, kuda hitam-putih, mahkota kemenangan."
+    },
     "short_desc": "Kemenangan, kontrol, dan ambisi.",
     "long_desc": "The Chariot adalah simbol disiplin dan determinasi. Ia mendorong kita untuk tetap fokus, mengendalikan arah, dan maju hingga mencapai tujuan.",
     "fact": "Sphynx hitam dan putih di depan kereta melambangkan kekuatan berlawanan yang harus dikendalikan.",
@@ -83,6 +211,22 @@
     "id": 8,
     "name": "Strength",
     "number": "VIII",
+    "personality": "Lembut tapi kuat, penuh kasih, mampu menaklukkan dengan kesabaran.",
+    "compatibility": [
+      {
+        "arcana": "The Chariot",
+        "reason": "Strength memberi kendali pada ambisi Chariot."
+      },
+      {
+        "arcana": "Temperance",
+        "reason": "Keduanya menekankan kontrol dan harmoni dalam hidup."
+      }
+    ],
+    "story": {
+      "meaning": "Kekuatan batin, kasih sayang, kontrol emosi.",
+      "myth": "Dikaitkan dengan Heracles yang menjinakkan singa.",
+      "symbolism": "Singa jinak, wanita lembut, lingkaran infinity."
+    },
     "short_desc": "Keberanian, kendali diri, dan belas kasih.",
     "long_desc": "Strength melambangkan kekuatan batin, kesabaran, dan cinta kasih. Kekuatan sejati bukanlah kekerasan, melainkan kemampuan untuk mengendalikan diri dan bersikap lembut.",
     "fact": "Perempuan yang membuka mulut singa melambangkan bahwa kelembutan lebih kuat daripada kekerasan.",
@@ -93,6 +237,22 @@
     "id": 9,
     "name": "The Hermit",
     "number": "IX",
+    "personality": "Bijak, suka menyendiri, mencari kebenaran batin.",
+    "compatibility": [
+      {
+        "arcana": "The High Priestess",
+        "reason": "Keduanya pencari kebenaran batin dan misteri."
+      },
+      {
+        "arcana": "The Star",
+        "reason": "Hermit memberi kebijaksanaan, Star memberi harapan."
+      }
+    ],
+    "story": {
+      "meaning": "Pencarian diri, introspeksi, kesendirian.",
+      "myth": "Dikaitkan dengan filsuf atau biksu suci.",
+      "symbolism": "Lampu, tongkat, jubah abu-abu."
+    },
     "short_desc": "Pencarian, introspeksi, dan kebijaksanaan.",
     "long_desc": "The Hermit mengajak kita untuk menyendiri, mencari kebenaran batin, dan menemukan cahaya dari dalam. Ia melambangkan perjalanan spiritual dan refleksi mendalam.",
     "fact": "Lampu yang dibawa The Hermit berisi bintang bersudut enam (hexagram), simbol kebijaksanaan ilahi.",
@@ -103,6 +263,22 @@
     "id": 10,
     "name": "Wheel of Fortune",
     "number": "X",
+    "personality": "Percaya pada takdir, fleksibel, penuh kejutan hidup.",
+    "compatibility": [
+      {
+        "arcana": "The World",
+        "reason": "Wheel membawa perubahan, World memberi tujuan akhir."
+      },
+      {
+        "arcana": "The Fool",
+        "reason": "Keduanya menyukai keberuntungan dan peluang baru."
+      }
+    ],
+    "story": {
+      "meaning": "Takdir, siklus hidup, kesempatan.",
+      "myth": "Dikaitkan dengan roda nasib Fortuna.",
+      "symbolism": "Roda, makhluk bersayap, empat elemen."
+    },
     "short_desc": "Perubahan, takdir, dan siklus hidup.",
     "long_desc": "Wheel of Fortune mengingatkan bahwa hidup selalu berubah. Ia melambangkan takdir, peluang, dan siklus keberuntungan yang terus berputar.",
     "fact": "Huruf di roda sering dibaca sebagai 'TARO' atau 'ROTA', yang berarti roda atau tarot.",
@@ -113,6 +289,22 @@
     "id": 11,
     "name": "Justice",
     "number": "XI",
+    "personality": "Adil, logis, suka kebenaran, menghargai aturan.",
+    "compatibility": [
+      {
+        "arcana": "The Emperor",
+        "reason": "Keduanya menegakkan aturan dan keadilan."
+      },
+      {
+        "arcana": "The Hierophant",
+        "reason": "Justice menegakkan hukum, Hierophant menegakkan moralitas."
+      }
+    ],
+    "story": {
+      "meaning": "Kebenaran, hukum, keseimbangan.",
+      "myth": "Dikaitkan dengan Themis, dewi keadilan.",
+      "symbolism": "Timbangan, pedang, mata tertutup."
+    },
     "short_desc": "Keadilan, kebenaran, dan keseimbangan.",
     "long_desc": "Justice melambangkan tanggung jawab, kejujuran, dan keputusan yang adil. Ia mengingatkan bahwa setiap tindakan memiliki konsekuensi.",
     "fact": "Justice biasanya digambarkan memegang pedang dan timbangan, simbol kebenaran dan keadilan.",
@@ -123,6 +315,22 @@
     "id": 12,
     "name": "The Hanged Man",
     "number": "XII",
+    "personality": "Pengorbanan, melihat dunia dari sudut berbeda, pasif tapi penuh makna.",
+    "compatibility": [
+      {
+        "arcana": "The Hermit",
+        "reason": "Keduanya introspektif dan mencari makna."
+      },
+      {
+        "arcana": "The Star",
+        "reason": "Hanged Man berkorban, Star memberi harapan setelah penderitaan."
+      }
+    ],
+    "story": {
+      "meaning": "Pengorbanan, perspektif baru, pasrah.",
+      "myth": "Dikaitkan dengan Odin yang menggantung di pohon Yggdrasil.",
+      "symbolism": "Orang tergantung terbalik, aura cahaya."
+    },
     "short_desc": "Pengorbanan, perspektif baru, dan penyerahan diri.",
     "long_desc": "The Hanged Man melambangkan perubahan sudut pandang, pengorbanan demi tujuan lebih besar, dan keheningan sebelum transformasi.",
     "fact": "Kaki The Hanged Man sering membentuk segitiga terbalik, simbol iluminasi spiritual.",
@@ -133,6 +341,22 @@
     "id": 13,
     "name": "Death",
     "number": "XIII",
+    "personality": "Transformasi, suka perubahan besar, berani meninggalkan masa lalu.",
+    "compatibility": [
+      {
+        "arcana": "The Tower",
+        "reason": "Death mengubah, Tower menghancurkan — sama-sama simbol transisi."
+      },
+      {
+        "arcana": "Judgement",
+        "reason": "Death mengakhiri, Judgement membangkitkan kembali dengan arti baru."
+      }
+    ],
+    "story": {
+      "meaning": "Akhir, transisi, kelahiran kembali.",
+      "myth": "Dikaitkan dengan Thanatos, personifikasi kematian.",
+      "symbolism": "Kuda putih, tengkorak, bunga mawar."
+    },
     "short_desc": "Akhir, transformasi, dan awal baru.",
     "long_desc": "Death tidak selalu berarti kematian fisik, melainkan akhir dari sebuah fase dan lahirnya yang baru. Ia melambangkan transformasi dan pelepasan.",
     "fact": "Dalam dek Rider-Waite, matahari terbit di horizon kartu Death melambangkan kebangkitan dan harapan baru.",
@@ -143,6 +367,22 @@
     "id": 14,
     "name": "Temperance",
     "number": "XIV",
+    "personality": "Harmonis, sabar, seimbang, suka menengahi konflik.",
+    "compatibility": [
+      {
+        "arcana": "Strength",
+        "reason": "Keduanya berbicara tentang kontrol diri dan keseimbangan batin."
+      },
+      {
+        "arcana": "The Hierophant",
+        "reason": "Temperance memberi harmoni pada aturan Hierophant."
+      }
+    ],
+    "story": {
+      "meaning": "Kesabaran, harmoni, moderasi.",
+      "myth": "Dikaitkan dengan malaikat Gabriel.",
+      "symbolism": "Air yang dituangkan, pelangi, jalan lurus."
+    },
     "short_desc": "Kesabaran, harmoni, dan keseimbangan.",
     "long_desc": "Temperance mengajarkan pentingnya moderasi, keselarasan, dan menggabungkan hal-hal berbeda menjadi satu kesatuan yang seimbang.",
     "fact": "Malaikat di kartu Temperance biasanya menuang air antara dua cawan, simbol harmoni unsur.",
@@ -153,6 +393,22 @@
     "id": 15,
     "name": "The Devil",
     "number": "XV",
+    "personality": "Penuh gairah, terikat pada materi, bisa manipulatif tapi juga karismatik.",
+    "compatibility": [
+      {
+        "arcana": "The Lovers",
+        "reason": "Devil adalah bayangan Lovers — mereka saling tarik-menarik."
+      },
+      {
+        "arcana": "The Tower",
+        "reason": "Devil mengikat, Tower menghancurkan keterikatan palsu."
+      }
+    ],
+    "story": {
+      "meaning": "Keterikatan, godaan, bayangan diri.",
+      "myth": "Dikaitkan dengan Pan atau Lucifer.",
+      "symbolism": "Tanduk, rantai, api."
+    },
     "short_desc": "Keterikatan, ilusi, dan godaan.",
     "long_desc": "The Devil melambangkan ikatan pada hal-hal material, kebiasaan buruk, dan ilusi. Ia mengingatkan kita untuk membebaskan diri dari rantai yang mengikat.",
     "fact": "Manusia di kartu The Devil terlihat terikat, tapi rantainya sebenarnya longgar—mereka bisa bebas jika mau.",
@@ -163,6 +419,22 @@
     "id": 16,
     "name": "The Tower",
     "number": "XVI",
+    "personality": "Mengejutkan, penuh perubahan mendadak, bisa menghancurkan ilusi.",
+    "compatibility": [
+      {
+        "arcana": "Death",
+        "reason": "Tower menghancurkan, Death membentuk kembali."
+      },
+      {
+        "arcana": "The Star",
+        "reason": "Setelah kehancuran Tower, Star membawa harapan baru."
+      }
+    ],
+    "story": {
+      "meaning": "Kejatuhan, krisis, pencerahan mendadak.",
+      "myth": "Dikaitkan dengan Menara Babel.",
+      "symbolism": "Petir, bangunan runtuh, manusia jatuh."
+    },
     "short_desc": "Kehancuran, pencerahan mendadak, dan perubahan besar.",
     "long_desc": "The Tower menandakan perubahan drastis dan tak terduga. Meski tampak menghancurkan, ia membuka jalan menuju kebenaran dan kebebasan baru.",
     "fact": "Petir di kartu The Tower sering dianggap sebagai 'cahaya kebenaran' yang menghancurkan ilusi.",
@@ -173,6 +445,22 @@
     "id": 17,
     "name": "The Star",
     "number": "XVII",
+    "personality": "Penuh harapan, inspiratif, damai, suka memberi motivasi.",
+    "compatibility": [
+      {
+        "arcana": "The Hermit",
+        "reason": "Hermit memberi kebijaksanaan, Star memberi harapan."
+      },
+      {
+        "arcana": "The Hanged Man",
+        "reason": "Hanged Man berkorban, Star memberi kedamaian setelahnya."
+      }
+    ],
+    "story": {
+      "meaning": "Harapan, kedamaian, inspirasi.",
+      "myth": "Dikaitkan dengan Astraea, dewi bintang.",
+      "symbolism": "Bintang besar, air dituangkan, langit malam."
+    },
     "short_desc": "Harapan, inspirasi, dan penyembuhan.",
     "long_desc": "The Star melambangkan kepercayaan, ketenangan, dan arah yang jelas. Ia memberi harapan baru dan inspirasi setelah masa sulit.",
     "fact": "Bintang utama di kartu ini biasanya bersudut delapan, simbol regenerasi dan energi kosmik.",
@@ -183,6 +471,22 @@
     "id": 18,
     "name": "The Moon",
     "number": "XVIII",
+    "personality": "Intuitif, penuh ilusi, misterius, emosional.",
+    "compatibility": [
+      {
+        "arcana": "The High Priestess",
+        "reason": "Keduanya penuh misteri dan intuisi."
+      },
+      {
+        "arcana": "The Devil",
+        "reason": "Moon menimbulkan ilusi, Devil memanfaatkan ilusi itu."
+      }
+    ],
+    "story": {
+      "meaning": "Mimpi, ilusi, ketidakpastian.",
+      "myth": "Dikaitkan dengan Hecate, dewi bulan dan sihir.",
+      "symbolism": "Anjing, serigala, kepiting, bulan purnama."
+    },
     "short_desc": "Ilusi, mimpi, dan ketidakpastian.",
     "long_desc": "The Moon melambangkan dunia mimpi, misteri, dan hal-hal yang tidak jelas. Ia mengingatkan kita untuk berhati-hati terhadap ilusi dan kebingungan.",
     "fact": "Anjing dan serigala di kartu The Moon melambangkan sisi liar dan terlatih dari jiwa manusia.",
@@ -193,6 +497,22 @@
     "id": 19,
     "name": "The Sun",
     "number": "XIX",
+    "personality": "Ceria, penuh energi, membawa kebahagiaan dan kehangatan.",
+    "compatibility": [
+      {
+        "arcana": "The Fool",
+        "reason": "Keduanya penuh optimisme dan vitalitas."
+      },
+      {
+        "arcana": "The Lovers",
+        "reason": "Sun memberi cahaya pada hubungan cinta Lovers."
+      }
+    ],
+    "story": {
+      "meaning": "Kebahagiaan, kesuksesan, vitalitas.",
+      "myth": "Dikaitkan dengan Apollo, dewa matahari.",
+      "symbolism": "Matahari cerah, anak-anak, bunga matahari."
+    },
     "short_desc": "Kebahagiaan, kesuksesan, dan vitalitas.",
     "long_desc": "The Sun membawa energi positif, kehangatan, dan kegembiraan. Ia melambangkan pencapaian, kejelasan, dan masa depan cerah.",
     "fact": "Anak kecil yang menunggang kuda di kartu The Sun melambangkan kepolosan dan kebebasan.",
@@ -203,6 +523,22 @@
     "id": 20,
     "name": "Judgement",
     "number": "XX",
+    "personality": "Reflektif, suka introspeksi, percaya pada kebangkitan diri.",
+    "compatibility": [
+      {
+        "arcana": "Death",
+        "reason": "Death mengakhiri, Judgement memberi kehidupan baru."
+      },
+      {
+        "arcana": "The World",
+        "reason": "Judgement adalah panggilan, World adalah hasil akhir panggilan itu."
+      }
+    ],
+    "story": {
+      "meaning": "Kebangkitan, refleksi, keputusan akhir.",
+      "myth": "Dikaitkan dengan Gabriel yang meniup terompet kebangkitan.",
+      "symbolism": "Malaikat, terompet, manusia bangkit."
+    },
     "short_desc": "Kebangkitan, refleksi, dan keputusan akhir.",
     "long_desc": "Judgement melambangkan kesadaran baru, panggilan spiritual, dan kebangkitan. Ia mendorong kita untuk menghadapi masa lalu dan memutuskan jalan baru.",
     "fact": "Sangkakala di kartu Judgement biasanya ditiup oleh malaikat Gabriel, simbol panggilan ilahi.",
@@ -213,6 +549,22 @@
     "id": 21,
     "name": "The World",
     "number": "XXI",
+    "personality": "Selesai, sukses, puncak pencapaian, harmoni universal.",
+    "compatibility": [
+      {
+        "arcana": "Wheel of Fortune",
+        "reason": "Wheel adalah siklus, World adalah penyelesaian siklus."
+      },
+      {
+        "arcana": "The Sun",
+        "reason": "Keduanya simbol kebahagiaan dan kesempurnaan."
+      }
+    ],
+    "story": {
+      "meaning": "Pencapaian, kelengkapan, kemenangan.",
+      "myth": "Dikaitkan dengan Gaia, dewi bumi.",
+      "symbolism": "Lingkaran laurel, empat elemen, wanita menari."
+    },
     "short_desc": "Penyelesaian, keberhasilan, dan kesatuan.",
     "long_desc": "The World menandakan akhir dari perjalanan besar. Ia melambangkan pencapaian tertinggi, harmoni, dan kesempurnaan siklus hidup.",
     "fact": "Empat makhluk di sudut kartu (singa, lembu, manusia, elang) melambangkan empat injil dan empat elemen.",
@@ -222,7 +574,23 @@
   {
     "id": 22,
     "name": "The Aeon",
-    "number": "XXI",
+    "number": "XX",
+    "personality": "Visioner, futuristik, berhubungan dengan transformasi besar zaman.",
+    "compatibility": [
+      {
+        "arcana": "Judgement",
+        "reason": "Aeon adalah versi kosmik dari kebangkitan Judgement."
+      },
+      {
+        "arcana": "The World",
+        "reason": "Aeon melampaui pencapaian World ke kesadaran universal."
+      }
+    ],
+    "story": {
+      "meaning": "Transformasi zaman, kesadaran kolektif baru.",
+      "myth": "Dikaitkan dengan Horus dalam tarot Thoth.",
+      "symbolism": "Api kosmik, dewa Horus, lingkaran waktu."
+    },
     "short_desc": "Transendensi, kebangkitan kosmik, dan kesadaran baru.",
     "long_desc": "The Aeon (atau The Universe dalam beberapa dek) melambangkan kesadaran kosmik, pencerahan, dan kebangkitan spiritual yang lebih tinggi. Ia mengajak kita melampaui batas-batas dunia material dan terhubung dengan kebenaran abadi.",
     "fact": "The Aeon lebih populer di dek Thoth karya Aleister Crowley, menggantikan kartu Judgement.",
