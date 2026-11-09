@@ -1,11 +1,11 @@
 import CompendiumApp from "./pages/HomePage";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom"; // 1. Diubah ke HashRouter
 import ArcanaPage from "./pages/MyArcanaPage";
 import PersonaPage from "./pages/MyPersonaPage";
 
 export default function App() {
   return (
-    <Router>
+    <Router> {/* 2. Jika pakai HashRouter, kamu tidak butuh properti basename lagi */}
       <Routes>
         <Route path="/" element={<CompendiumApp />} />
         <Route path="/arcana" element={<ArcanaPage />} />
