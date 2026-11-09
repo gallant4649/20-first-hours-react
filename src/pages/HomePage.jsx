@@ -1,18 +1,21 @@
 import { useState } from "react";
-import arcana from "../data/arcana.json";
-
-import Header from "../components/Header";
-import PersonaCards from "../components/PersonaCards";
-import ArcanaCards from "../components/ArcanaCards";
-import Modal from "../components/ArcanaDetailCards";
-import Footer from "../components/Footer";
-import PersonaDetailCards from "../components/PersonaDetailCards";
-import ScrollToTop from "../components/ScrollTop";
-import HeroSection from "../components/HeroSection";
+import Header from "../components/common/Header";
+import PersonaCards from "../components/persona/PersonaCards";
+import ArcanaCards from "../components/arcana/ArcanaCards";
+import Modal from "../components/arcana/ArcanaDetailCards";
+import Footer from "../components/common/Footer";
+import PersonaDetailCards from "../components/persona/PersonaDetailCards";
+import ScrollToTop from "../components/common/ScrollTop";
+import HeroSection from "../components/common/HeroSection";
+import { useArcanaData } from "../hooks/useArcanaData";
+import { usePersonaData } from "../hooks/usePersonaData";
 
 export default function App() {
   const [selectedCard, setSelectedCard] = useState(null);
   const [selectedPersona, setSelectedPersona] = useState(null);
+
+  const { arcana } = useArcanaData();
+  const { personas } = usePersonaData();
 
   return (
     <div>
@@ -28,7 +31,7 @@ export default function App() {
           onClose={() => setSelectedPersona(null)}
         />
       ) : (
-        <PersonaCards onSelect={setSelectedPersona} />
+        <PersonaCards personas={personas} onSelect={setSelectedPersona} />
       )}
 
       <ArcanaCards arcana={arcana} onSelect={setSelectedCard} />

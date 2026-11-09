@@ -1,11 +1,10 @@
 import { useState } from "react";
-import compendium from "../data/personaCompendium.json";
-import SearchBar from "./SearchBar";
+import SearchBar from "../common/SearchBar";
 
-export default function PersonaCards({ onSelect }) {
+export default function PersonaCards({ personas, onSelect }) {
   const [searchTerm, setSearchTerm] = useState("");
 
-  const filtered = compendium.filter((persona) =>
+  const filtered = personas.filter((persona) =>
     persona.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 

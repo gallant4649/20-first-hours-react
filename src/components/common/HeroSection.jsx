@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import arcana from "../data/arcana.json";
+import arcana from "../../data/arcana.json";
 
 export default function HeroSection() {
   const rotations = [
@@ -28,6 +28,7 @@ export default function HeroSection() {
             </strong>
             and see what your
             <strong className="bg-linear-60/oklch via-red-500 from-slate-900 to-gray-200 bg-clip-text text-transparent block sm:inline">
+              {" "}
               Persona{" "}
             </strong>
           </h1>

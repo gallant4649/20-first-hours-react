@@ -1,5 +1,5 @@
-import arcanaData from "../data/arcana.json";
-import { elementIcons } from "./ElementIcons";
+import arcanaData from "../../data/arcana.json";
+import { elementIcons } from "../icons/ElementIcons";
 import Tilt from "react-parallax-tilt";
 
 export default function PersonaDetailCards({ selectedPersona, onClose }) {

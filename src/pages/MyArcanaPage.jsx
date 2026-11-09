@@ -1,12 +1,12 @@
 import { useState } from "react";
 import arcana from "../data/arcana.json";
 
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import FormArcana from "../components/FormArcana";
-import ArcanaCards from "../components/ArcanaCards";
-import Modal from "../components/ArcanaDetailCards";
-import ScrollToTopButton from "../components/ScrollTop";
+import Header from "../components/common/Header";
+import Footer from "../components/common/Footer";
+import FormArcana from "../components/arcana/FormArcana";
+import ArcanaCards from "../components/arcana/ArcanaCards";
+import Modal from "../components/arcana/ArcanaDetailCards";
+import ScrollToTopButton from "../components/common/ScrollTop";
 
 export default function MyArcana() {
   const [selectedCard, setSelectedCard] = useState(null);
